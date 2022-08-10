@@ -2,12 +2,11 @@ package gomail_test
 
 import (
 	"fmt"
+	"gomail-bcc"
 	"html/template"
 	"io"
 	"log"
 	"time"
-
-	"gopkg.in/gomail.v2"
 )
 
 func Example() {
